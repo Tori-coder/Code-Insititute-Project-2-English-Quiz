@@ -1,0 +1,21 @@
+/* Google fonts import to go here if required*/
+
+/* Wildcard selector to remove default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    display: flex;
+    /* Makes flex elements place vertically */
+    flex-direction: column;
+    /* Forces content to take up all vertical height of screen */
+    height: 100vh;
+}
+
+header, main, footer {
+    text-align: center;
+    padding: 10px;
+}
