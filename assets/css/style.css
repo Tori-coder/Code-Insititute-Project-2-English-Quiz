@@ -37,8 +37,17 @@ header, main, footer {
 
 header {
     background-color: red;
-    font-family: TheArtistSans;
     letter-spacing: 0.2em;
+}
+
+h1 {
+    font-family: cupcake;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: TheArtistSans;
+    font-size: 2em;
 }
 
 main {
