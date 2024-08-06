@@ -7,6 +7,19 @@
     padding: 0;
 }
 
+/* define fonts */
+@font-face {
+    font-family: cupcake;
+    src: url(../fonts/Cupcake.ttf);
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: TheArtistSans;
+    src: url(../fonts/TheArtistSans.otf);
+    font-display: swap;
+}
+
 /* Add flexbox styling to whole page for responsiveness */
 .page-container {
     display: flex;
