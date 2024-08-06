@@ -37,6 +37,8 @@ header, main, footer {
 
 header {
     background-color: red;
+    font-family: TheArtistSans;
+    letter-spacing: 0.2em;
 }
 
 main {
