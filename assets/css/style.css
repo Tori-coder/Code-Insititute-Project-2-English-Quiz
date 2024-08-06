@@ -43,6 +43,8 @@ header, main, footer {
 header {
     /*border: 2px solid black;*/
     letter-spacing: 0.2em;
+    font-size: 1.5em;
+    margin-top: 1em;
 }
 
 h1 {
@@ -51,6 +53,11 @@ h1 {
 }
 
 h2 {
+    font-family: TheArtistSans;
+    font-size: 1.7em;
+}
+
+h3, h4 {
     font-family: TheArtistSans;
     font-size: 2em;
 }
@@ -84,6 +91,9 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    width: 75%;
+    max-width: 490px;
+    height: 55%;
 }
 
 /* Quiz option button styles */
